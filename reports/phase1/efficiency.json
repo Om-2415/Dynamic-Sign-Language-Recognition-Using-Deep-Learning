@@ -1,0 +1,10 @@
+{
+  "params": 1180155,
+  "params_millions": 1.18,
+  "size_mb": 4.51,
+  "device": "cpu",
+  "latency_ms_median": 8.225812496675644,
+  "latency_ms_p95": 8.364933144912357,
+  "throughput_fps": 121.56853811147982,
+  "threads": 5
+}

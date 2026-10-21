@@ -1,0 +1,61 @@
+{
+  "n": 810,
+  "accuracy": 0.4185185185185185,
+  "macro_f1": 0.41522592625781046,
+  "weighted_f1": 0.41522592625781035,
+  "top5_accuracy": 0.7160493827160493,
+  "most_confused": [
+    {
+      "true": "F",
+      "predicted": "Y",
+      "count": 15
+    },
+    {
+      "true": "D",
+      "predicted": "Y",
+      "count": 14
+    },
+    {
+      "true": "N",
+      "predicted": "M",
+      "count": 14
+    },
+    {
+      "true": "V",
+      "predicted": "K",
+      "count": 13
+    },
+    {
+      "true": "A",
+      "predicted": "Y",
+      "count": 13
+    },
+    {
+      "true": "E",
+      "predicted": "Y",
+      "count": 13
+    },
+    {
+      "true": "C",
+      "predicted": "Y",
+      "count": 13
+    },
+    {
+      "true": "I",
+      "predicted": "Y",
+      "count": 11
+    },
+    {
+      "true": "B",
+      "predicted": "Y",
+      "count": 10
+    },
+    {
+      "true": "U",
+      "predicted": "B",
+      "count": 10
+    }
+  ],
+  "split": "test",
+  "split_csv": "splits/external_test.csv"
+}

@@ -1,0 +1,41 @@
+{
+  "n_samples": 81000,
+  "n_classes": 27,
+  "n_signers": 1,
+  "warnings": [
+    "Only one (or unknown) signer: results measure memorisation of one person's hand, not generalisation to new users.",
+    "92% of checked test images are near-duplicates of training images: test accuracy on this split will be inflated."
+  ],
+  "train": {
+    "samples": 56700,
+    "classes": 27,
+    "signers": [
+      "unknown"
+    ]
+  },
+  "val": {
+    "samples": 12150,
+    "classes": 27,
+    "signers": [
+      "unknown"
+    ]
+  },
+  "test": {
+    "samples": 12150,
+    "classes": 27,
+    "signers": [
+      "unknown"
+    ]
+  },
+  "signer_overlap_train_test": [],
+  "signer_independent": false,
+  "mode": "random",
+  "root": "data/asl_alphabet/asl_alphabet_train/asl_alphabet_train",
+  "seed": 42,
+  "duplicates": {
+    "near_duplicate_rate": 0.924,
+    "checked_test": 1000,
+    "checked_train": 20000,
+    "hamming_threshold": 4
+  }
+}

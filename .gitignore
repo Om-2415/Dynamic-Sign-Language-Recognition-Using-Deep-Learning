@@ -1,0 +1,11 @@
+data/
+runs/
+splits/
+_smoke/
+results/
+__pycache__/
+*.pt
+*.npy
+.venv/
+.DS_Store
+*.zip
